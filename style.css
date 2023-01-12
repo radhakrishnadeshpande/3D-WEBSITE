@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  font-family: sans-serif;
+  overflow: hidden;
+  background: url("https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/12/Gradient_builder_2.jpg?auto=format&q=60&w=1815&h=1815&fit=crop&crop=faces");
+}
+.scene,
+canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-size: 72px;
+  text-align: center;
+  font-weight: bold;
+  background: linear-gradient(90deg, #190087, #ff0000, #ff00f3, #0033ff, #ff00c4, #ff0000, #FF5733, #FFC133, #E0FF33, #33FF7D, #0047EC, #BA00EC, #F48188);
+  background-size: 400%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: animat 10s linear infinite;
+}
+@keyframes animat{
+0%{
+      background-position: 0%;
+
+  }
+  100% {
+      background-position: 400%;
+      
+  }
+}
+
+
+p{
+  font-size: 20px;
+  text-align: right;
+  font-weight: bold;
+  font-display: relative;
+  color: rgba(0, 0, 0, 0.258); 
+}

@@ -1,0 +1,11 @@
+Model Information:
+* title:	ИЖД Спортивная AC22
+* source:	https://sketchfab.com/3d-models/ac22-6fe903f4cbb144ea857e5f3f8839ec71
+* author:	Qfasad.ru (https://sketchfab.com/JenLi)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "ИЖД Спортивная AC22" (https://sketchfab.com/3d-models/ac22-6fe903f4cbb144ea857e5f3f8839ec71) by Qfasad.ru (https://sketchfab.com/JenLi) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
