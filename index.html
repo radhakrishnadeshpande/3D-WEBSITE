@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title> 3D DIGITAL STUDIOS </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;0,800;0,900;1,200;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/71ff9a2c1e.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<section class="header">
+      <nav>
+          <a href="index.html"><img src="images/2.png" style="width: 100px;height: 100px;"></a>
+          <div class="nav-links" id="navLinks">
+              <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+              <ul>
+                   <li><a href="index.html">HOME</a></li>
+                  <li><a href="plan.html">PLAN</a></li>
+                  <li><a href="section.html">SECTION</a></li>
+                  <li><a href="elevation.html">ELEVATION</a></li>
+                  <li><a href="3dviews.html">3D VIEWS</a></li>
+                  <li><a href="walk.html">WALKTHROUGH</a></li>
+              
+              </ul>
+          </div>
+          <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+<div class="text-box"> 
+    <h1 id="heading"> ART GALLERY</h1>
+</div>    
+</section>
+
+    <div class="circle">
+    <div class="box"> </div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <footer>&copy; Copyright 08/01/2023 RADHA KRISHNA DESHPANDE</footer>
+
+<!-----------JavaScript Tap to menu------>    
+<script>
+        
+ var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+</body>    
+</html>
+ 
